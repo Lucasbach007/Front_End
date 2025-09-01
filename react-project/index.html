@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br"> 
+  <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+ <link rel ="shortcut icon" href ="imagens_fundo/icone_salao.ico" type ="image/x-icon">
+
+ <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="javascript/buscarSalao.js"></script>
+ <script type="module" src="/src/main.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautfulHair</title>
+  
+</head>
+<body>
+
+
+
+<div class="container">
+        <h1>Bem-vindo à BeautfulHair</h1>
+        
+       
+
+
+        <p>Na nossa Central de agendamentos e serviços esteticos, dedicamo-nos a proporcionar momentos especiais para você e seus cuidados com o corpo. Oferecemos produtos de qualidade, serviços personalizados e uma experiência única, celebrando a alegria e o carinho que os cabelos trazem às nossas vidas.</p>
+    </div>
+
+    <title>Salões e Barbearias Próximos</title>
+</p>
+<div class="container">
+  <h1>Salões e Barbearias Perto de Você</h1>
+  <button onclick="buscarSaloes()">Buscar Salões</button>
+</div>
+  <div id="map"></div>
+  <div id="mensagem"></div>
+  <ul id="resultados"></ul>
+
+<footer>
+    <p>&copy; 2025 BeautfulHair | Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
